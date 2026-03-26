@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Desarrollador web con experiencia en HTML, CSS y JavaScript. Visita mi portafolio para ver mis proyectos.">
+
+  <link rel="icon" href="./assets/img/favicon.svg">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Juan Pablo Torres Rios</title>
+</head>
+
+<body>
+  <header>
+    <div class="name">
+      <h1>Juan Pablo Torres Rios</h1>
+      <p>Desarrollador Web Frontend Junior</p>
+    </div>
+    <a href="./assets/pdf/Juan_Pablo_Torres_CV.pdf" download=""> <img src="./assets/img/download.png" alt=""> CV PDF</a>
+  </header>
+  <section class="contact">
+    <ul>
+      <li class="email"> <img src="./assets/img/email.png" alt="email"> <span>Email:
+          pablo5936@gmail.com</span></li>
+      <li class="telefono"> <img src="./assets/img/phone.png" alt="telefono"> <span>Teléfono: +34 603 37 12 43</span>
+      </li>
+      <li class="linkedin"> <img src="./assets/img/linkedin.png" alt="linkedin"> <span><a
+            href="https://www.linkedin.com/in/juanpablotorresrios"
+            target="_blank">linkedin.com/in/juanpablotorresrios</a></span>
+      </li>
+      <li class="github"> <img src="./assets/img/github.png" alt="github"> <span><a href="https://github.com/Pablo5936"
+            target="_blank">github.com/Pablo5936</a></span>
+      </li>
+    </ul>
+  </section>
+  <section class="about-me">
+    <h3>Sobre mí</h3>
+    <p>Desarrollador web junior en formación, con conocimientos en HTML, CSS y JavaScript, y experiencia en la creación
+      de proyectos prácticos enfocados en la lógica y la interacción con el usuario.
+      <br>
+      Actualmente curso un programa de Full Stack Development en The Power Business School, consolidando habilidades
+      tanto en frontend como en backend.
+      <br>
+      Apasionado por la programación, busco incorporarme a un equipo profesional donde aportar desde el primer día,
+      seguir aprendiendo y crecer dentro de proyectos reales, aportando responsabilidad, compromiso y proactividad.
+    </p>
+  </section>
+  <section class="skills">
+    <button data-section="habilidades" onclick="showSection('habilidades')">Habilidades</button>
+    <button data-section="educacion" onclick="showSection('educacion')">Educación</button>
+    <button data-section="experiencia" onclick="showSection('experiencia')">Experiencia</button>
+    <button data-section="proyectos" onclick="showSection('proyectos')">Proyectos</button>
+  </section>
+  <section class="habilidades" id="habilidades">
+    <div class="tecnicas">
+      <h3>Técnicas</h3>
+      <p>Tecnologías y herramientas que domino</p>
+      <ul>
+        <li> <img src="./assets/img/HTML.png" alt=""> HTML5</li>
+        <li> <img src="./assets/img/CSS.png" alt=""> CSS3</li>
+        <li> <img src="./assets/img/JS.png" alt=""> JavaScript</li>
+        <li> <img src="./assets/img/BOOSTRAP.png" alt=""> Bootstrap</li>
+        <li> <img src="./assets/img/figma.png" alt=""> Figma</li>
+        <li> <img src="./assets/img/WORDPRESS.png" alt=""> WordPress</li>
+        <li> <img src="./assets/img/seo.png" alt=""> SEO</li>
+        <li> <img src="./assets/img/responsive.png" alt="">Diseño responsivo y accesibilidad web</li>
+      </ul>
+    </div>
+    <div class="blandas">
+      <h3>Blandas</h3>
+      <p>Competencias interpersonales y de liderazgo</p>
+      <ul>
+        <li>Comunicación efectiva</li>
+        <li>Trabajo en equipo</li>
+        <li>Resolución de problemas</li>
+        <li>Adaptabilidad y aprendizaje continuo</li>
+        <li>Gestión del tiempo y organización</li>
+      </ul>
+    </div>
+  </section>
+  <section class="educacion" id="educacion">
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Figma</h3>
+          <p class="fecha">2026</p>
+          <p>The Power Business School</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Confección y publicación de páginas web</h3>
+          <p class="fecha">2025</p>
+          <p>GRI Barcelona</p>
+          <p>Nivel 2 de Profesionalidad</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Certificación en Optimización SEO</h3>
+          <p class="fecha">2025</p>
+          <p>HubSpot Academy</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Asesoría comercial y operaciones de entidades financieras</h3>
+          <p class="fecha">2014</p>
+          <p>SENA - Colombia</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="experiencia" id="experiencia">
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>OLOGY</h3>
+          <p class="fecha">2025</p>
+          <ul>
+            <li>Optimización SEO con el plugin Yoast, edición de imágenes y uso de VS Code para maquetación y ajustes
+              visuales.
+            </li>
+            <li>Modificación y personalización de temas en WordPress para mejorar la experiencia del usuario.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>CFC outsorsing Banco AV Villas - Colombia</h3>
+          <p class="fecha"> 2016 - 2018</p>
+          <ul>
+            <li>Colocación de intangibles (Consumo, Vehiculo, T.Crédito, Hipotecario)</li>
+            <li>Asesoría en gestión de finanzas personales.</li>
+            <li>Asesoría en reagrupación de deudas y obtención de flujo de efectivo.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>SINGULARYTI - Colombia</h3>
+          <p class="fecha">2025</p>
+          <ul>
+            <li>Actualización bases de datos clientes.</li>
+            <li>Realizar informes para inversionistas.</li>
+            <li>Cuentas de cobro para empresas con convenio.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="proyectos" id="proyectos">
+    <ul>
+      <li class="project-card">
+        <img src="./assets/img/proyecto_1.png" alt="Landing page" />
+        <div class="project-content">
+          <h3>Landing Page</h3>
+          <p>página web desarrollada con HTML y CSS que presenta una interfaz clara y moderna, con estructura responsive
+            y diseño orientado a usuario. Incluye organización de assets, estilos personalizados y enfoque en una
+            experiencia visual atractiva y funcional.</p>
+          <div class="project-links">
+            <a href="https://pablo5936.github.io/proyecto-1/" target="_blank" rel="noopener">Demo</a>
+            <a href="https://github.com/Pablo5936/proyecto-1" target="_blank" rel="noopener">Código</a>
+          </div>
+        </div>
+      </li>
+      <li class="project-card">
+        <img src="./assets/img/tamagotchi.png" alt="Tamagotchi" />
+        <div class="project-content">
+          <h3>Tamagotchi</h3>
+          <p>Juego interactivo de Tamagotchi desarrollado en JavaScript.</p>
+          <div class="project-links">
+            <a href="https://pablo5936.github.io/tamagotchi/" target="_blank" rel="noopener">Demo</a>
+            <a href="https://github.com/Pablo5936/tamagotchi" target="_blank" rel="noopener">Código</a>
+          </div>
+        </div>
+      </li>
+      </li>
+      <li class="project-card">
+        <img src="./assets/img/pueblos.png" alt="Imagen de Pueblos de Cataluña" />
+        <div class="project-content">
+          <h3>Pueblos de Cataluña</h3>
+          <p>Sitio web informativo que reúne enlaces a blogs, artículos y recursos sobre la
+            historia, cultura y atractivos turísticos de diferentes pueblos catalanes.
+            <br>
+            Cuenta con:
+          <ul>
+            <li>Navegación intuitiva</li>
+            <li>Enlaces externos</li>
+            <li>Selector de tema para personalizar la apariencia del sitio</li>
+          </ul>
+          </p>
+          <div class="project-links">
+            <a href="./pueblos" target="_blank" rel="noopener">Demo</a>
+            <a href="https://github.com/Pablo5936/cat_localstorage" target="_blank" rel="noopener">Código</a>
+          </div>
+        </div>
+      </li>
+      </li>
+      <li class="project-card">
+        <img src="./assets/img/apps.png" alt="Imagen de Mini utilidades interactivas con JavaScript" />
+        <div class="project-content">
+          <h3>Mini utilidades interactivas con JavaScript</h3>
+          <p>Sitio web con tres herramientas interactivas para practicar
+            manipulación del DOM con JavaScript.
+            Conversor de tiempo, tabla de multiplicar y cálculo de precio con IVA.</p>
+          <div class="project-links">
+            <a href="https://pablo5936.github.io/conversores/" target="_blank" rel="noopener">Demo</a>
+            <a href="https://github.com/Pablo5936/conversores" target="_blank" rel="noopener">Código</a>
+          </div>
+        </div>
+      </li>
+      </li>
+      <li class="project-card">
+        <img src="./assets/img/pinterest.png" alt="Imagen de Réplica de interfaz de Pinterest" />
+        <div class="project-content">
+          <h3>Réplica de interfaz de Pinterest</h3>
+          <p>Interfaz de usuario inspirada en Pinterest, con un diseño de cuadrícula y
+            tarjetas.</p>
+          <div class="project-links">
+            <a href="https://pablo5936.github.io/flex/" target="_blank" rel="noopener">Demo</a>
+            <a href="https://github.com/Pablo5936/flex" target="_blank" rel="noopener">Código</a>
+          </div>
+        </div>
+      </li>
+      </li>
+      <li class="project-card">
+        <img src="./assets/img/numerología.png" alt="Imagen de Númerología" />
+        <div class="project-content">
+          <h3>Númerología</h3>
+          <p>Numerología es una aplicación web interactiva que permite calcular diversos aspectos numerológicos como
+            el número del alma, del nombre, etc. Incluye:</p>
+          <ul>
+            <li>Selección de múltiples cálculos desde un menú.</li>
+            <li>Temas personalizables con almacenamiento en localStorage.</li>
+            <br>
+          </ul>
+          <div class="project-links">
+            <a href="./numerologia" target="_blank" rel="noopener">Demo</a>
+            <a href="https://github.com/Pablo5936/numerologia_local" target="_blank" rel="noopener">Código</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const sections = document.querySelectorAll('.habilidades, .educacion, .experiencia, .proyectos');
+      const buttons = document.querySelectorAll('.skills button');
+
+      // Ocultar todas
+      sections.forEach(section => {
+        section.classList.remove('show');
+        section.style.display = 'none';
+      });
+
+      // Mostrar "Habilidades" por defecto
+      const habilidadesSection = document.querySelector('.habilidades');
+      if (habilidadesSection) {
+        habilidadesSection.style.display = 'grid';
+        setTimeout(() => habilidadesSection.classList.add('show'), 50);
+      }
+
+      // Marcar botón activo por defecto
+      buttons.forEach(btn => btn.classList.remove('active'));
+      const defaultBtn = document.querySelector('.skills button[data-section="habilidades"]');
+      if (defaultBtn) defaultBtn.classList.add('active');
+    });
+
+    function showSection(sectionId) {
+      const sections = document.querySelectorAll('.habilidades, .educacion, .experiencia, .proyectos');
+      const buttons = document.querySelectorAll('.skills button');
+
+      // Quitar estado activo de botones
+      buttons.forEach(btn => btn.classList.remove('active'));
+      const activeButton = document.querySelector(`.skills button[data-section="${sectionId}"]`);
+      if (activeButton) activeButton.classList.add('active');
+
+      // Buscar la sección activa actual
+      const current = document.querySelector('.show');
+
+      // Si hay una visible, hacer fade out
+      if (current && current.id !== sectionId) {
+        current.classList.remove('show');
+        setTimeout(() => {
+          current.style.display = 'none';
+          fadeInSection(sectionId);
+        }, 400); // tiempo de la transición CSS
+      } else if (!current) {
+        fadeInSection(sectionId);
+      }
+    }
+
+    // Función que muestra con efecto fade in
+    function fadeInSection(sectionId) {
+      const selected = document.getElementById(sectionId);
+      if (selected) {
+        if (selected.classList.contains('habilidades')) {
+          selected.style.display = 'grid';
+        } else {
+          selected.style.display = 'block';
+        }
+        setTimeout(() => selected.classList.add('show'), 50);
+        selected.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>
